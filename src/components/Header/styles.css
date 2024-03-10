@@ -1,0 +1,14 @@
+header {
+    height: 62px;
+    background-color: var(--color-bg-secondary);
+    display: flex;
+    align-items: center;
+}
+
+
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-font-secondary);
+}
+

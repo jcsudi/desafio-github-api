@@ -1,0 +1,27 @@
+.informative {
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.informative h2 {
+    font-size: 48px;  
+}
+
+.informative p {
+    font-size: 24px;
+    font-weight: 700;
+    color: var( --color-font-tertiary);
+}
+
+button {
+    background-color: var(  --color-bg-secondary);
+    border-radius: 4px;
+    height: 41px;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-font-secondary);
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,82 @@
+.before-container {
+    background-color: var( --color-bg-primary );
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 54px;
+    padding-left: 31px;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 298px;
+    height: 40px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 17px;
+
+
+}
+
+ button {
+    width: 101px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 54px;
+    cursor: pointer;
+
+}
+
+.user-profile-container {
+    background-color: var( --color-bg-quaternary);
+    border-radius: 8px;
+    padding: 43px 35px;
+    height: 334px;
+    display: flex;
+    align-items: center;
+}
+
+.user-info-card {
+    background-color: var( --color-bg-tertiary);
+    margin-left: 29px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px; 
+    padding-left: 14px;
+}
+
+.user-photo img{
+    max-width: 247px;
+    height: 247px;
+    
+}
+
+.user-info-card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-font-quartenary);
+    margin-bottom: 19px;
+
+}
+
+.user-info-card p {
+    width: 839px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-font-tertiary);
+}
+
+
+
